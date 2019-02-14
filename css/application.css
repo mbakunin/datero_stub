@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Roboto";
+    height: 100%;
+    margin: 0;
+    min-width: 300px;
+    min-height: 120px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 30px;
+}
+
+.logo {
+    max-width: 70%;
+    height: auto;
+    width: 400px;
+}
